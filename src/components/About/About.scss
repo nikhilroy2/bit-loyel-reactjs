@@ -1,0 +1,26 @@
+.about img {
+  /* background-image: url("../../images/about-shap.png"); */
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.royal {
+  color: #c31f83;
+}
+.pve {
+  color: #14a151;
+}
+
+#about_section {
+  .para_content{
+    font-size: 20px;
+  }
+  .about_us_img{
+    max-width: 476px;
+    object-fit: contain;
+    margin: auto;
+    @media (max-width: 759px){
+      width: 80%;
+    }
+  }
+}
