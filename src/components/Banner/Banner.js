@@ -20,11 +20,11 @@ const Banner = () => {
       <img className="banner-img3" src={img3} alt="" />
       <img className="banner-img4" src={img4} alt="" />
       <div className="whitelist">
-        <div style={{ background: '#160734' }}>
+        <div style={{ background: "#160734" }}>
           <p>
             The white list is already! <br /> open Check it now
           </p>
-          <p className="wallet">
+          <p className="wallet my-3">
             <a href="#" style={{ fontSize: "20px" }}>
               Get Whitelisted
             </a>

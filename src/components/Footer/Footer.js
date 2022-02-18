@@ -197,20 +197,20 @@ const Footer = () => {
         </p>
       </div>
       <div className="footerBottom">
-        <ul className="py-3 navbar-nav d-flex align-items-center flex-row justify-content-center mb-2 mb-lg-0">
+        <ul className="py-3 navbar-nav flex-wrap d-flex align-items-center flex-row justify-content-center mb-2 mb-lg-0">
           <li className="nav-item">
-            <a className="nav-link " aria-current="page" href="#">
+            <a className="nav-link d-flex align-items-center " aria-current="page" href="#">
               About us
             </a>
           </li>
           <li className="nav-item">
-            <a className="nav-link active" rel="" aria-current="page" href="#">
+            <a className="nav-link d-flex align-items-center active" rel="" aria-current="page" href="#">
               Tokenomics
             </a>
           </li>
           <li className="nav-item">
             <a
-              className="nav-link active"
+              className="nav-link d-flex align-items-center active"
               rel="no"
               aria-current="page"
               href="#"
@@ -220,7 +220,7 @@ const Footer = () => {
           </li>
           <li className="nav-item">
             <a
-              className="nav-link active"
+              className="nav-link d-flex align-items-center active"
               rel="no"
               aria-current="page"
               href="#"
@@ -230,7 +230,7 @@ const Footer = () => {
           </li>
           <li className="nav-item">
             <a
-              className="nav-link active"
+              className="nav-link d-flex align-items-center active"
               rel="no"
               aria-current="page"
               href="#"

@@ -207,7 +207,7 @@ const Navigation = () => {
 
               <div className="wallet ms-3 d-none d-xl-flex align-items-center">
                 <a
-                  href="javascript:void(0)"
+                  href="#"
                   data-bs-toggle="modal"
                   data-bs-target="#walletConnectionModal"
                 >

@@ -4,6 +4,9 @@
     background: url("../../images/contact_us_star.png") center/ contain
       no-repeat;
   }
+  .navbar-nav li:not(.nav-item-no-after) ::after {
+    display: inline-block;
+  }
 }
 
 #footer h1 {

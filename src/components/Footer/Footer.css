@@ -6,6 +6,10 @@
   background: url("../../images/contact_us_star.png") center/contain no-repeat;
 }
 
+#footer .navbar-nav li:not(.nav-item-no-after) ::after {
+  display: inline-block;
+}
+
 #footer h1 {
   font-family: Georama;
   font-style: normal;

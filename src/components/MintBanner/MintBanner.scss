@@ -7,6 +7,12 @@
   font-size: 20px;
   padding-bottom: 200px;
 }
+.mint_control_box{
+  width: 506px;
+  @media (max-width: 769px){
+    width: 70vw;
+  }
+}
 .btn_floating_box {
   position: absolute;
   bottom: 0;
