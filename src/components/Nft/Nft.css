@@ -39,7 +39,14 @@
 
 @media (max-width: 769px) {
   #nft_swiper_wrapper .swiper-slide img {
-    height: 139px;
+    height: 189px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  #nft_swiper_wrapper .swiper-slide img {
+    height: auto;
     width: 100%;
   }
 }

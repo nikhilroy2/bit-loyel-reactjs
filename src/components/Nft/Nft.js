@@ -27,7 +27,7 @@ const Nft = () => {
          <Swiper
             slidesPerView={4.6}
             
-            spaceBetween={30}
+            spaceBetween={15}
 
            
             className="mySwiper"
@@ -52,7 +52,7 @@ const Nft = () => {
          <Swiper
             slidesPerView={6.2}
             
-            spaceBetween={30}
+            spaceBetween={15}
            
             className="mySwiper"
          >

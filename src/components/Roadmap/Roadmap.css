@@ -26,7 +26,6 @@
   padding: 10px 20px;
   width: 400px;
   position: relative;
-  margin: auto;
 }
 
 .roadmap-years::after {
@@ -53,7 +52,7 @@
 
 @media only screen and (max-width: 768px) {
   .roadmap-years {
-    width: 283px;
+    width: 100%;
   }
 }
 /*# sourceMappingURL=Roadmap.css.map */

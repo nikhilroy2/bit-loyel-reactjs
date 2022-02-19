@@ -1,5 +1,15 @@
 #footer {
   text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+#footer .footer_design {
+  position: absolute;
+  right: 0%;
+  bottom: 20%;
+  pointer-events: none;
+  height: 600px;
 }
 
 #footer .footer_title {

@@ -23,7 +23,7 @@ const MintBanner = () => {
           <h2 className="text-center my-4 price_counter">
             {Number(counter * 0.2).toFixed(1)} ETH
           </h2>
-          <div className="controler mb-3 d-flex justify-content-center text-white align-items-center">
+          <div className="controler mb-4 d-flex justify-content-center text-white align-items-center">
             <button
               className="mx-2 plus_btn"
               onClick={() => setCounter(counter + 1)}

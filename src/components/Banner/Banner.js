@@ -11,8 +11,8 @@ const Banner = () => {
   return (
     <div id="banner_section">
       <div className="title">
-        <h1 className="banner-title">XXX is</h1>
-        <h2 className="banner-title1">XXXXXXXX Platform</h2>
+        <h1 className="banner-title text-nowrap">XXX is</h1>
+        <h2 className="banner-title1 text-nowrap">XXXXXXXX Platform</h2>
       </div>
       <img className="banner-img" src={img} alt="" />
       <img className="banner-img1" src={img1} alt="" />

@@ -1,5 +1,14 @@
 #footer {
   text-align: center;
+  position: relative;
+  overflow: hidden;
+  .footer_design{
+    position: absolute;
+    right: 0%;
+    bottom: 20%;
+    pointer-events: none;
+    height: 600px;
+  }
   .footer_title {
     background: url("../../images/contact_us_star.png") center/ contain
       no-repeat;

@@ -87,7 +87,7 @@ const Roadmap = () => {
   };
   return (
     <div id="roadmap_section" className="roadmap container my-5 py-5">
-      <div className="row">
+      <div className="row gy-5">
         <div className="roadmap-details col-12 col-xl-6 px-5">
           <h1>Roadmap</h1>
           <p>
@@ -97,7 +97,7 @@ const Roadmap = () => {
             </small>
           </p>
 
-          <div className="roadmap-years text-white mb-5">
+          <div className="roadmap-years mx-auto mx-xl-0 text-white mb-5">
             <div className="text-start ps-3 mt-2">
               <div className="d-flex align-items-center">
                 <svg
@@ -137,7 +137,7 @@ const Roadmap = () => {
               </ul>
             </div>
           </div>
-          <div className="roadmap-years text-white mb-5">
+          <div className="roadmap-years mx-auto mx-xl-0 text-white mb-5">
             <div className="text-start ps-3 mt-2">
               <div className="d-flex align-items-center">
                 <svg
@@ -179,7 +179,7 @@ const Roadmap = () => {
               </ul>
             </div>
           </div>
-          <div className="roadmap-years text-white mb-5">
+          <div className="roadmap-years mx-auto mx-xl-0 text-white mb-5">
             <div className="text-start ps-3 mt-2">
               <div className="d-flex align-items-center">
                 <svg

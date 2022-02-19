@@ -4,6 +4,59 @@ import "./Footer.css";
 const Footer = () => {
   return (
     <div id="footer">
+      <svg className="footer_design"
+        width={1115}
+        height={880}
+        viewBox="0 0 1115 880"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <g opacity="0.2" filter="url(#filter0_f_0_587)">
+          <rect
+            x="728.197"
+            y={200}
+            width={438}
+            height={593}
+            transform="rotate(62.9638 728.197 200)"
+            fill="url(#paint0_linear_0_587)"
+          />
+        </g>
+        <defs>
+          <filter
+            id="filter0_f_0_587"
+            x="0.000213623"
+            y={0}
+            width="1127.29"
+            height="1059.69"
+            filterUnits="userSpaceOnUse"
+            colorInterpolationFilters="sRGB"
+          >
+            <feFlood floodOpacity={0} result="BackgroundImageFix" />
+            <feBlend
+              mode="normal"
+              in="SourceGraphic"
+              in2="BackgroundImageFix"
+              result="shape"
+            />
+            <feGaussianBlur
+              stdDeviation={100}
+              result="effect1_foregroundBlur_0_587"
+            />
+          </filter>
+          <linearGradient
+            id="paint0_linear_0_587"
+            x1="947.197"
+            y1={200}
+            x2="947.197"
+            y2={793}
+            gradientUnits="userSpaceOnUse"
+          >
+            <stop stopColor="#4797EE" stopOpacity="0.28" />
+            <stop offset={1} stopColor="#FF29C3" />
+          </linearGradient>
+        </defs>
+      </svg>
+
       <div className="footer_title">
         <h1 className="my-3 my-md-5">Contacts</h1>
       </div>
@@ -197,14 +250,23 @@ const Footer = () => {
         </p>
       </div>
       <div className="footerBottom">
-        <ul className="py-3 navbar-nav flex-wrap d-flex align-items-center flex-row justify-content-center mb-2 mb-lg-0">
+        <ul className="py-3 navbar-nav flex-wrap d-flex align-items-center flex-row justify-content-center mb-0 mb-lg-0">
           <li className="nav-item">
-            <a className="nav-link d-flex align-items-center " aria-current="page" href="#">
+            <a
+              className="nav-link d-flex align-items-center "
+              aria-current="page"
+              href="#"
+            >
               About us
             </a>
           </li>
           <li className="nav-item">
-            <a className="nav-link d-flex align-items-center active" rel="" aria-current="page" href="#">
+            <a
+              className="nav-link d-flex align-items-center active"
+              rel=""
+              aria-current="page"
+              href="#"
+            >
               Tokenomics
             </a>
           </li>
