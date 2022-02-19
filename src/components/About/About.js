@@ -11,7 +11,7 @@ const About = () => {
     >
       <div className="row">
         <div className="col-md-7 text-start">
-          <h2 style={{ color: "#FFFF14", fontSize: "64px" }}>About Us</h2>
+          <h2 className="text-center text-md-start mb-3" style={{ color: "#FFFF14", fontSize: "64px" }}>About Us</h2>
           <p className="text-white para_content">
             Bit Royale (<span className="royal">"Royale"</span>) is the most
             promising NFT game of 2022. In it you can purchase your{" "}

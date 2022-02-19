@@ -12,6 +12,9 @@
 }
 
 #about_section {
+  @media (max-width: 759px){
+    margin-top: 50px!important;
+  }
   .para_content{
     font-size: 20px;
   }

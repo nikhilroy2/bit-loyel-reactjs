@@ -6,10 +6,16 @@
   position: relative;
   font-size: 20px;
   padding-bottom: 200px;
+  @media (max-width: 575px) {
+    padding-left: 15px;
+    padding-right: 15px;
+  padding-bottom: 00px;
+
+  }
 }
-.mint_control_box{
+.mint_control_box {
   width: 506px;
-  @media (max-width: 769px){
+  @media (max-width: 769px) {
     width: 70vw;
   }
 }
@@ -19,9 +25,9 @@
   right: 0;
   border: solid;
   z-index: 1000;
-  border: none!important;
-  outline: none!important;
-  box-shadow: none!important;
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
 }
 .MintBanner {
   h2.price_counter {
@@ -44,11 +50,11 @@
       font-size: 20px;
       width: 100%;
       position: relative;
-      img{
-          position: absolute;
-          left: 12px;
-          top: 50%;
-          transform: translateY(-50%);
+      img {
+        position: absolute;
+        left: 12px;
+        top: 50%;
+        transform: translateY(-50%);
       }
     }
   }

@@ -13,6 +13,12 @@
   color: #14a151;
 }
 
+@media (max-width: 759px) {
+  #about_section {
+    margin-top: 50px !important;
+  }
+}
+
 #about_section .para_content {
   font-size: 20px;
 }

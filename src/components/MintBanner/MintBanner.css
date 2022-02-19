@@ -8,6 +8,14 @@
   padding-bottom: 200px;
 }
 
+@media (max-width: 575px) {
+  .whitelist {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 00px;
+  }
+}
+
 .mint_control_box {
   width: 506px;
 }

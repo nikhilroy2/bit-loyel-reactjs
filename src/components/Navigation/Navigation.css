@@ -156,7 +156,7 @@ li:nth-child(5) ::after {
     padding: 0;
   }
   .mobile_brand_toggle {
-    padding: 35px 45px;
+    padding: 20px 45px;
   }
   .navbar-nav li:not(.nav-item-no-after) ::after {
     display: none;
