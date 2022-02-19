@@ -7,7 +7,7 @@ const About = () => {
     <div
       id="about_section"
       className="container about"
-      style={{ marginTop: "200px" }}
+      style={{ marginTop: "50px" }}
     >
       <div className="row">
         <div className="col-md-7 text-start">
