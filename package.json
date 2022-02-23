@@ -1,13 +1,18 @@
 {
-  "name": "Swiper - Slides Grid",
+  "name": "demo",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://nikhilroy2.github.io",
+ 
   "dependencies": {
+    "-": "^0.0.1",
     "bootstrap": "^5.1.3",
+    "gh-pages": "^3.2.3",
     "parcel-bundler": "^1.6.1",
     "react-bootstrap": "^2.1.2",
     "react-router-dom": "^6.2.1",
     "react-scripts": "^5.0.0",
+    "save-dev": "^0.0.1-security",
     "swiper": "latest",
     "web-vitals": "^2.1.4"
   },
@@ -15,13 +20,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "browserslist": {
     "production": [
