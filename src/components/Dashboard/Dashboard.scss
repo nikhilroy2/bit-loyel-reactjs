@@ -1,0 +1,67 @@
+#dashboard {
+  h3 {
+    color: white;
+    position: relative;
+    &::before {
+      content: "";
+      background: url("../../images/Star.png") no-repeat;
+      width: 24px;
+      height: 24px;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%) translateX(-35px);
+    }
+    &::after {
+      content: "";
+      background: url("../../images/Star.png") no-repeat;
+      width: 24px;
+      height: 24px;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%) translateX(10px);
+    }
+  }
+  .tab_wrapper {
+    .tab_btn_wrapper {
+      .tab_btn {
+        background: #0f0626;
+        color: #06c1d4;
+        border: none;
+        outline: none;
+        font-size: 20px;
+        padding: 5px 30px;
+        border-radius: 15px;
+        &:not(:last-child) {
+          margin-right: 20px;
+        }
+        &.active_tab{
+            background: #06c1d4;
+            color: white;
+        }
+      }
+    }
+    .form_wrapper {
+        position: relative;
+        .search_icon{
+            position: absolute;
+            right: 10px;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+      input {
+        background: #0f0626;
+        color: #06c1d4;
+        border: none;
+        outline: none;
+        padding: 5px 30px;
+
+        &::placeholder {
+          color: inherit;
+        }
+      }
+    }
+    .tab_content_wrapper {
+      color: white;
+    }
+  }
+}

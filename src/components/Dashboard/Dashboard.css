@@ -1,0 +1,86 @@
+#dashboard h3 {
+  color: white;
+  position: relative;
+}
+
+#dashboard h3::before {
+  content: "";
+  background: url("../../images/Star.png") no-repeat;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%) translateX(-35px);
+          transform: translateY(-50%) translateX(-35px);
+}
+
+#dashboard h3::after {
+  content: "";
+  background: url("../../images/Star.png") no-repeat;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%) translateX(10px);
+          transform: translateY(-50%) translateX(10px);
+}
+
+#dashboard .tab_wrapper .tab_btn_wrapper .tab_btn {
+  background: #0f0626;
+  color: #06c1d4;
+  border: none;
+  outline: none;
+  font-size: 20px;
+  padding: 5px 30px;
+  border-radius: 15px;
+}
+
+#dashboard .tab_wrapper .tab_btn_wrapper .tab_btn:not(:last-child) {
+  margin-right: 20px;
+}
+
+#dashboard .tab_wrapper .tab_btn_wrapper .tab_btn.active_tab {
+  background: #06c1d4;
+  color: white;
+}
+
+#dashboard .tab_wrapper .form_wrapper {
+  position: relative;
+}
+
+#dashboard .tab_wrapper .form_wrapper .search_icon {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+#dashboard .tab_wrapper .form_wrapper input {
+  background: #0f0626;
+  color: #06c1d4;
+  border: none;
+  outline: none;
+  padding: 5px 30px;
+}
+
+#dashboard .tab_wrapper .form_wrapper input::-webkit-input-placeholder {
+  color: inherit;
+}
+
+#dashboard .tab_wrapper .form_wrapper input:-ms-input-placeholder {
+  color: inherit;
+}
+
+#dashboard .tab_wrapper .form_wrapper input::-ms-input-placeholder {
+  color: inherit;
+}
+
+#dashboard .tab_wrapper .form_wrapper input::placeholder {
+  color: inherit;
+}
+
+#dashboard .tab_wrapper .tab_content_wrapper {
+  color: white;
+}
+/*# sourceMappingURL=Dashboard.css.map */

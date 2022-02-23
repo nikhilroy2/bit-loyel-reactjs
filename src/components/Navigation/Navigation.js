@@ -13,7 +13,7 @@ const Navigation = () => {
         <div className="container-fluid">
           <div className="mobile_brand_toggle align-items-center d-flex justify-content-between align-items-center flex-grow-1 ">
             <Link className="navbar-brand" to="/">
-              LOGO
+              <img src={require('../../images/logo.png')} alt="logo" />
             </Link>
 
             <button
