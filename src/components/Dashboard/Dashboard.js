@@ -16,6 +16,64 @@ function Dashboard(props) {
 export default Dashboard;
 
 const DashboardInner = () => {
+  const tab1Content = [
+    {
+      id: 1,
+      img: require("../../images/nft_img/nft1.png"),
+      name: "REAR",
+      icon_count1: 5,
+      icon_count2: 10,
+    },
+    {
+      id: 2,
+      img: require("../../images/nft_img/nft2.png"),
+      name: "MYTHICAL",
+      icon_count1: 6,
+      icon_count2: 1,
+    },
+    {
+      id: 3,
+      img: require("../../images/nft_img/nft3.png"),
+      name: "COMMUN",
+      icon_count1: 5,
+      icon_count2: 10,
+    },
+    {
+      id: 4,
+      img: require("../../images/nft_img/nft4.png"),
+      name: "COMMUN",
+      icon_count1: 5,
+      icon_count2: 10,
+    },
+    {
+      id: 5,
+      img: require("../../images/nft_img/nft5.png"),
+      name: "COMMUN",
+      icon_count1: 5,
+      icon_count2: 10,
+    },
+    {
+      id: 6,
+      img: require("../../images/nft_img/nft6.png"),
+      name: "COMMUN",
+      icon_count1: 5,
+      icon_count2: 10,
+    },
+    {
+      id: 7,
+      img: require("../../images/nft_img/nft7.png"),
+      name: "COMMUN",
+      icon_count1: 5,
+      icon_count2: 10,
+    },
+    {
+      id: 8,
+      img: require("../../images/nft_img/nft8.png"),
+      name: "COMMUN",
+      icon_count1: 5,
+      icon_count2: 10,
+    },
+  ];
   const [tabIndex, setTabIndex] = useState(1);
   return (
     <div className="DashboardInner">
@@ -23,7 +81,7 @@ const DashboardInner = () => {
 
       <div className="container">
         <div className="tab_wrapper mt-3 mt-md-5">
-          <div className="d-flex flex-wrap align-items-center justify-content-between">
+          <div className="d-flex flex-wrap align-items-center justify-content-between mb-3 mb-md-5">
             <div className="tab_btn_wrapper mb-3">
               <button
                 onClick={() => setTabIndex(1)}
@@ -44,7 +102,7 @@ const DashboardInner = () => {
                 Lands
               </button>
             </div>
-            <div className="form_wrapper mb-3">
+            <div className="form_wrapper mb-3 ">
               <input type="text" placeholder="Search here..." />
               <svg
                 className="search_icon"
@@ -67,26 +125,122 @@ const DashboardInner = () => {
           <div className="tab_content_wrapper">
             {tabIndex === 1 && (
               <div className="tab_card_wrapper">
-                <div className="card_wrapper">
-                  <div className="card_title"></div>
-                  <div className="card_content"></div>
+                <div className="row gy-3">
+                  {tab1Content.map((v) => {
+                    return (
+                      <div key={v.id} className="col-6 col-md-4 col-lg-3">
+                        <div className="card_wrapper">
+                          <div className="card_title">
+                            <img src={v.img} alt="img" />
+                          </div>
+                          <div className="card_content">
+                            <h2 className="content_title">
+                              <span style={{ "--round-bg": "#1F738A" }}>
+                                {v.name}
+                              </span>
+                            </h2>
+                            <div className=" d-flex justify-content-between align-items-center">
+                              <div className="box d-flex align-items-center">
+                                <img
+                                  src={require("../../images/bx_atom.png")}
+                                  alt="img"
+                                />
+                                <b>{v.icon_count1}</b>
+                              </div>
+                              <div className="box d-flex align-items-center">
+                                <img
+                                  src={require("../../images/bx_add-to-queue.png")}
+                                  alt="img"
+                                />
+                                <b>{v.icon_count2}</b>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    );
+                  })}
                 </div>
               </div>
             )}
 
             {tabIndex === 2 && (
               <div className="tab_card_wrapper">
-                <div className="card_wrapper">
-                  <div className="card_title"></div>
-                  <div className="card_content"></div>
+                <div className="row gy-3">
+                  {tab1Content.map((v) => {
+                    return (
+                      <div key={v.id} className="col-6 col-md-4 col-lg-3">
+                        <div className="card_wrapper">
+                          <div className="card_title">
+                            <img src={v.img} alt="img" />
+                          </div>
+                          <div className="card_content">
+                            <h2 className="content_title">
+                              <span style={{ "--round-bg": "#1F738A" }}>
+                                {v.name}
+                              </span>
+                            </h2>
+                            <div className=" d-flex justify-content-between align-items-center">
+                              <div className="box d-flex align-items-center">
+                                <img
+                                  src={require("../../images/bx_atom.png")}
+                                  alt="img"
+                                />
+                                <b>{v.icon_count1}</b>
+                              </div>
+                              <div className="box d-flex align-items-center">
+                                <img
+                                  src={require("../../images/bx_add-to-queue.png")}
+                                  alt="img"
+                                />
+                                <b>{v.icon_count2}</b>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    );
+                  })}
                 </div>
               </div>
             )}
             {tabIndex === 3 && (
               <div className="tab_card_wrapper">
-                <div className="card_wrapper">
-                  <div className="card_title"></div>
-                  <div className="card_content"></div>
+                <div className="row gy-3">
+                  {tab1Content.map((v) => {
+                    return (
+                      <div key={v.id} className="col-6 col-md-4 col-lg-3">
+                        <div className="card_wrapper">
+                          <div className="card_title">
+                            <img src={v.img} alt="img" />
+                          </div>
+                          <div className="card_content">
+                            <h2 className="content_title">
+                              <span style={{ "--round-bg": "#1F738A" }}>
+                                {v.name}
+                              </span>
+                            </h2>
+                            <div className=" d-flex justify-content-between align-items-center">
+                              <div className="box d-flex align-items-center">
+                                <img
+                                  src={require("../../images/bx_atom.png")}
+                                  alt="img"
+                                />
+                                <b>{v.icon_count1}</b>
+                              </div>
+                              <div className="box d-flex align-items-center">
+                                <img
+                                  src={require("../../images/bx_add-to-queue.png")}
+                                  alt="img"
+                                />
+                                <b>{v.icon_count2}</b>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    );
+                  })}
                 </div>
               </div>
             )}

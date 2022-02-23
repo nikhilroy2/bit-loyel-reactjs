@@ -34,20 +34,20 @@
         &:not(:last-child) {
           margin-right: 20px;
         }
-        &.active_tab{
-            background: #06c1d4;
-            color: white;
+        &.active_tab {
+          background: #06c1d4;
+          color: white;
         }
       }
     }
     .form_wrapper {
-        position: relative;
-        .search_icon{
-            position: absolute;
-            right: 10px;
-            top: 50%;
-            transform: translateY(-50%);
-        }
+      position: relative;
+      .search_icon {
+        position: absolute;
+        right: 10px;
+        top: 50%;
+        transform: translateY(-50%);
+      }
       input {
         background: #0f0626;
         color: #06c1d4;
@@ -62,6 +62,48 @@
     }
     .tab_content_wrapper {
       color: white;
+      .tab_card_wrapper {
+        .card_wrapper {
+          background: #363b52;
+          border-radius: 25px;
+          padding: 35px;
+          img {
+            margin: auto;
+            width: 75%;
+          }
+          .card_title {
+            background: linear-gradient(
+              180deg,
+              rgba(6, 193, 212, 0.43) 0%,
+              #150633 95.08%,
+              rgba(1, 73, 145, 0) 100%
+            );
+            filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.01));
+            border-radius: 9px;
+          }
+          .content_title {
+            font-size: 25px;
+            text-align: center;
+            margin-top: 10px;
+            span {
+              padding: 3px 5px;
+              border-radius: 8px;
+              border: 1px solid var(--round-bg);
+            }
+          }
+        }
+        .card_content {
+          padding: 5px 0px;
+          img {
+            width: 24px;
+            height: 24px;
+            margin-right: 10px;
+          }
+          b {
+            font-size: 25px;
+          }
+        }
+      }
     }
   }
 }
