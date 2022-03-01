@@ -13,11 +13,13 @@ const MintBanner = () => {
     <div id="banner_section" className="MintBanner position-relative">
       <h1 className="banner-title">XXX is</h1>
       <h2 className="banner-title1">XXXXXXXX Platform</h2>
-      <img className="banner-img" src={img} alt="" />
-      <img className="banner-img1" src={img1} alt="" />
-      <img className="banner-img2" src={img2} alt="" />
+      <img className="banner-img" src={require('../../images/banner-img/Pink_elipse.png')} alt="img" />
+
+      <img className="banner-img1" src={require('../../images/banner-img/Yellow_elipse.png')} alt="img" />
+      <img className="banner-img2" src={require('../../images/banner-img/Purple_elipse2.png')} alt="img" />
       <img className="banner-img3" src={img3} alt="" />
       <img className="banner-img4" src={img4} alt="" />
+      <img src={require('../../images/banner-img/bg_linear.png')} alt="img" className="bg_linear" />
       <div className="whitelist">
         <div className="mint_control_box">
           <h2 className="text-center my-4 price_counter">
@@ -84,9 +86,9 @@ const MintBanner = () => {
         </div>
       </div>
 
-      <button className="btn btn_floating_box">
+      {/* <button className="btn btn_floating_box">
         <img src={require("../../images/floatin_icon.png")} alt="img" />
-      </button>
+      </button> */}
     </div>
   );
 };

@@ -14,7 +14,7 @@ const Banner = () => {
         <h1 className="banner-title text-nowrap">XXX is</h1>
         <h2 className="banner-title1 text-nowrap">XXXXXXXX Platform</h2>
       </div>
-      <img className="banner-img" src={img} alt="" />
+      <img className="banner-img" data-ttt src={require('../../images/banner-img/Pink_elipse.png')} alt="img" />
       <img className="banner-img1" src={img1} alt="" />
       <img className="banner-img2" src={img2} alt="" />
       <img className="banner-img3" src={img3} alt="" />

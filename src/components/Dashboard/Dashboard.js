@@ -4,7 +4,7 @@ import Navigation from "../Navigation/Navigation";
 import SoldOutBanner from "../SoldOutBanner/SoldOutBanner";
 function Dashboard(props) {
   return (
-    <div id="dashboard" className="py-5">
+    <div id="dashboard">
       <div id="home">
         <Navigation></Navigation>
         <DashboardInner></DashboardInner>
@@ -76,7 +76,7 @@ const DashboardInner = () => {
   ];
   const [tabIndex, setTabIndex] = useState(1);
   return (
-    <div className="DashboardInner">
+    <div className="DashboardInner py-5">
       <h3 className="text-center">Dashboard</h3>
 
       <div className="container">
@@ -128,7 +128,7 @@ const DashboardInner = () => {
                 <div className="row gy-3">
                   {tab1Content.map((v) => {
                     return (
-                      <div key={v.id} className="col-6 col-md-4 col-lg-3">
+                      <div key={v.id} className="col-12 col-sm-6 col-md-4 col-lg-3">
                         <div className="card_wrapper">
                           <div className="card_title">
                             <img src={v.img} alt="img" />
@@ -169,7 +169,7 @@ const DashboardInner = () => {
                 <div className="row gy-3">
                   {tab1Content.map((v) => {
                     return (
-                      <div key={v.id} className="col-6 col-md-4 col-lg-3">
+                      <div key={v.id} className="col-12 col-sm-6 col-md-4 col-lg-3">
                         <div className="card_wrapper">
                           <div className="card_title">
                             <img src={v.img} alt="img" />
@@ -209,7 +209,7 @@ const DashboardInner = () => {
                 <div className="row gy-3">
                   {tab1Content.map((v) => {
                     return (
-                      <div key={v.id} className="col-6 col-md-4 col-lg-3">
+                      <div key={v.id} className="col-12 col-sm-6 col-md-4 col-lg-3">
                         <div className="card_wrapper">
                           <div className="card_title">
                             <img src={v.img} alt="img" />
@@ -246,6 +246,38 @@ const DashboardInner = () => {
             )}
           </div>
         </div>
+
+        <nav aria-label="Page navigation example ">
+          <ul className="pagination justify-content-center my-3 my-md-5">
+            <li className="page-item">
+              <a className="page-link" href="#" aria-label="Previous">
+                <span aria-hidden="true">«</span>
+                <span className="sr-only">Previous</span>
+              </a>
+            </li>
+            <li className="page-item">
+              <a className="page-link" href="#">
+                1
+              </a>
+            </li>
+            <li className="page-item">
+              <a className="page-link" href="#">
+                2
+              </a>
+            </li>
+            <li className="page-item">
+              <a className="page-link" href="#">
+                3
+              </a>
+            </li>
+            <li className="page-item">
+              <a className="page-link" href="#" aria-label="Next">
+                <span aria-hidden="true">»</span>
+                <span className="sr-only">Next</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
       </div>
     </div>
   );

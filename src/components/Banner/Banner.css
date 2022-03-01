@@ -42,9 +42,13 @@
   margin: auto;
 }
 
-@media (max-width: 759px) {
+@media (max-width: 814px) {
   .banner-title1 {
-    width: 93%;
+    width: auto;
+    max-width: 623px;
+    right: 0px !important;
+    margin-left: auto;
+    margin-right: 0px;
   }
 }
 
@@ -63,10 +67,10 @@
   position: absolute;
   left: 188px;
   top: 167px;
-  background-image: url("../../images/banner-img/shap1.png");
   background-position: center;
-  background-size: 100%;
   background-repeat: no-repeat;
+  width: 232px;
+  height: 232px;
 }
 
 .banner-img1 {
@@ -77,6 +81,8 @@
   background-position: center;
   background-size: 100%;
   background-repeat: no-repeat;
+  width: 217px;
+  height: 217px;
 }
 
 .banner-img2 {
@@ -87,6 +93,8 @@
   background-position: center;
   background-size: 100%;
   background-repeat: no-repeat;
+  width: 226px;
+  height: 226px;
 }
 
 .banner-img3 {
@@ -97,6 +105,19 @@
   background-position: center;
   background-size: 100%;
   background-repeat: no-repeat;
+  width: 232px;
+  height: 232px;
+}
+
+.bg_linear {
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  pointer-events: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 
 .banner-img4 {
@@ -190,21 +211,6 @@
 @media (max-width: 668px) and (max-width: 400px) {
   .banner-title1 {
     font-size: 20px;
-  }
-}
-
-@media (max-width: 668px) {
-  .banner-img {
-    width: 15%;
-  }
-  .banner-img2 {
-    width: 15%;
-  }
-  .banner-img1 {
-    width: 15%;
-  }
-  .banner-img4 {
-    width: 10%;
   }
 }
 /*# sourceMappingURL=Banner.css.map */

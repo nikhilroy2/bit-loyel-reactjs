@@ -144,6 +144,9 @@ li:nth-child(5) ::after {
   }
   .mobile_brand_toggle {
     padding: 20px 45px;
+    @media (max-width: 814px) {
+      padding: 0px 33px;
+    }
   }
   .navbar-nav li:not(.nav-item-no-after) ::after {
     display: none;

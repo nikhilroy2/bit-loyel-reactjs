@@ -43,9 +43,9 @@ const SoldOutBanner = () => {
                 </div>
             </div>
 
-            <button className="btn btn_floating_box">
+            {/* <button className="btn btn_floating_box">
                 <img src={require("../../images/floatin_icon.png")} alt="img" />
-            </button>
+            </button> */}
         </div>
     );
 };

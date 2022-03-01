@@ -158,6 +158,15 @@ li:nth-child(5) ::after {
   .mobile_brand_toggle {
     padding: 20px 45px;
   }
+}
+
+@media (max-width: 1199px) and (max-width: 814px) {
+  .mobile_brand_toggle {
+    padding: 0px 33px;
+  }
+}
+
+@media (max-width: 1199px) {
   .navbar-nav li:not(.nav-item-no-after) ::after {
     display: none;
   }
